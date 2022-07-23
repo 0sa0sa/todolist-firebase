@@ -16,13 +16,31 @@
   cursor: pointer;
 }
 
+.mainArea {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
 .todoList li {
   width: 10%;
+  flex: 1;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  margin-bottom: 10px;
+}
+
+.doneList li {
+  width: 10%;
+  flex: 1;
+  display: flex;
+  /* align-items: center; */
   margin-bottom: 10px;
 }
 
 .todoList li input {
+  padding: 7px;
+}
+
+.doneList li input {
   padding: 7px;
 }
